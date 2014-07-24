@@ -1,0 +1,31 @@
+{
+  "name": "microjuego1",
+  "description": "",
+  "readme": "",
+  "repository": "",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "^3.8.6",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-download": "*",
+    "gulp-jshint": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "^3.0.0",
+    "gulp-watch": "*",
+    "tiny-lr": "*"
+  },
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
+  }
+}
